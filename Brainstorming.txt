@@ -1,0 +1,28 @@
+RULES:
+
+
+KEYWORD MAPPING:
+None ->
+False ->
+True ->
+and ->
+assert ->
+break ->
+def ->
+if, elif, else ->
+is ->
+not ->
+or ->
+pass ->
+return ->
+while ->
+print ->
+
++ ->
+- ->
+* ->
+/ ->
+< ->
+> ->
+
+OTHER:
