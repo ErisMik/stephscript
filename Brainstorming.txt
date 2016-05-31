@@ -21,6 +21,10 @@ Lists are called Crap (or TODOs)
 
 Stephscript can only be run on a computer with less than 5gb of space remaining, and the computer is NOT running the latest version of it’s OS
 
+The device must NOT be flat/level for Stephscript to run (If available)
+
+Stephscript must be run from the Desktop, or else it deletes itself
+
 Running a stephscript script randomly generates a sticker to put on your laptop (http://randombumpersticker.com/)
 
 Making an instance of a class opens a new window
@@ -30,25 +34,30 @@ None -> NOPE
 False -> WRONG
 True -> RIGHT
 and -> AND
-assert ->
-break ->
-def ->
-if ->
-elif ->
-else ->
-is ->
-not ->
+break -> GET THE FUCK OUT
+def -> WHEN DID
+if -> WILL THIS WORK
+elif -> SHIT I'LL TRY THIS
+else -> FUCK MY LIFE
+try -> COULD YOU PLEASE
+except -> WELL SHIT
+not -> BETTER FUCKING NOT BE
 or ->
-pass -> 
-return ->
+return -> OCCUR
 while ->
-print ->
+print -> HEY ____
 
 = -> IS
-== -> IS?
+== -> IS ____ ?
 + -> ADD
 - -> MINUS
 * -> MULTI
 / -> DIVIDE
 < -> WORSE
 > -> BETTER
+
+## TODO
+
+Cats
+r00d
+DO YOU HAVE FOOD
