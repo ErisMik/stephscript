@@ -29,6 +29,8 @@ Running a stephscript script randomly generates a sticker to put on your laptop 
 
 Making an instance of a class opens a new window
 
+Stephscript can’t loop because Steph always does it right the first name
+
 ## KEYWORD MAPPING:
 None -> NOPE
 False -> WRONG
@@ -42,13 +44,13 @@ else -> FUCK MY LIFE
 try -> COULD YOU PLEASE
 except -> WELL SHIT
 not -> BETTER FUCKING NOT BE
-or ->
+and -> AND
+or -> I DON’T CARE
 return -> OCCUR
-while ->
 print -> HEY ____
 
 = -> IS
-== -> IS ____ ?
+== -> REALLY IS
 + -> ADD
 - -> MINUS
 * -> MULTI
@@ -61,3 +63,5 @@ print -> HEY ____
 Cats
 r00d
 DO YOU HAVE FOOD
+DO YOU THINK YOU COULD GET SO ANGRY YOU EXPLODE?
+CAN YOU PLUG THIS IN FOR ME?
