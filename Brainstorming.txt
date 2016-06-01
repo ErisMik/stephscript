@@ -27,9 +27,11 @@ Stephscript must be run from the Desktop, or else it deletes itself
 
 Running a stephscript script randomly generates a sticker to put on your laptop (http://randombumpersticker.com/)
 
-Making an instance of a class opens a new window
+Making an instance of a class opens a new window, each print statement opens a new window
 
 Stephscript can’t loop because Steph always does it right the first name
+
+Opens a tumblr page (random wget)
 
 ## KEYWORD MAPPING:
 None -> NOPE
@@ -65,3 +67,4 @@ r00d
 DO YOU HAVE FOOD
 DO YOU THINK YOU COULD GET SO ANGRY YOU EXPLODE?
 CAN YOU PLUG THIS IN FOR ME?
+DONE EAT FOOD *EATS FOOD*
