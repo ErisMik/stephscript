@@ -24,7 +24,7 @@ Currently there is only a live parser, just run the python script 'stephparse.py
 - [~] Stephscript must be run from the Desktop, or else it deletes itself
 - [ ] Running a stephscript script randomly generates a sticker to put on your laptop (http://randombumpersticker.com/)
 - [ ] Making an instance of a class opens a new window, each print statement opens a new window
-~~- [ ] Stephscript can’t loop because Steph always does it right the first name~~
+- ~~[ ] Stephscript can’t loop because Steph always does it right the first name~~
 - [ ] Opens a random tumblr page randomly
 
 ### Grammar
