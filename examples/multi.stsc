@@ -1,0 +1,9 @@
+KITKAT IS? 0
+
+COULD YOU PLEASE :
+	KITKAT IS? ~int( ~raw_input( "Enter a number" ) )
+WELL SHIT:
+	HEY "SOMETHING BROKE"
+	
+COOKIE IS? KITKAT * KITKAT
+HEY COOKIE

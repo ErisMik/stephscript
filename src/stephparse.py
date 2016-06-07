@@ -30,10 +30,11 @@ class Filter:
             if len(stripped_line) == 0:  # Empty Line
                 output_lines.append("")
             else:
-                if stripped_line[0] == "#":  # Commented line
-                    output_lines.append("")
-                else:
-                    output_lines.append(stripped_line)
+                # if stripped_line[0] == "#":  # Commented line
+                #     output_lines.append("")
+                # else:
+                #     output_lines.append(stripped_line)
+                output_lines.append(stripped_line)
         return output_lines
 
 # ############################################
@@ -153,7 +154,7 @@ class Parser:
         "I DON'T CARE" : "or",
         "OCCUR" : "return",
         "HEY" : "print",
-        "IS" : "=",
+        "IS?" : "=",
         "REALLY IS" : "==",
         "ADD" : "+",
         "MINUS" : "-",
@@ -167,9 +168,12 @@ class Parser:
     }
 
     goodwords = [
-        "ERIC",
-        "PETER",
-        "STEPH"
+        "COOKIE",
+        "COOKIES",
+        "PIZZA",
+        "KITKAT",
+        "SMOOTHIE",
+        "SMOOTHIES"
     ]
 
     specialchars = [
@@ -188,19 +192,30 @@ class Parser:
                 num = leading_space
                 space = " " * num
                 oline = oline + space
+
             line = shlex.shlex(line)
 
             skip = True
+            knext = False
             for word in line:
+                print word
                 if skip:
                     skip = False
                 else:
                     oline += " "
 
-                if word in self.keywords:  # If it's an operator (single word operator)
+                if knext:
+                    oline += word
+                    knext = False
+                elif "~" in word:  # If it's a forced item
+                    knext = True
+                    skip = True
+                elif word in self.keywords:  # If it's an operator (single word operator)
                     oline += self.keywords[word]
                 elif self.test_multiline(word)[0]:  # If it's a operator (multiword operator)
                     oline += self.keywords[self.test_multiline(word)[1]]
+                # elif "~" in word:  # If it's a forced name
+                #     oline += word[1:]
                 elif word in self.goodwords:  # If it's a variable
                     oline += word
                 elif word in self.specialchars:  # If it's a special character
@@ -220,7 +235,8 @@ class Parser:
     def test_multiline(self, input_word):
         for kword in self.keywords:
             kword = kword.split()
-            if input_word in kword[0]:
+            # if input_word in kword[0]:
+            if kword[0] == input_word:
                 return (True, " ".join(kword))
         return (False, None)
 

@@ -26,9 +26,11 @@ Currently there is only a live parser, just run the python script 'stephparse.py
 - [ ] Making an instance of a class opens a new window, each print statement opens a new window
 - ~~[ ] Stephscript can’t loop because Steph always does it right the first name~~
 - [ ] Opens a random tumblr page randomly
+- [ ] Variables can only be named after food
 
 ### Grammar
 Unless otherwise denoted, Stephscript has the same grammer as python.
+Use a '~' before a variable to force StSc to use it, rather than going to the list
 
 ### Arithmetic operators:
 | Python Operator  | Stephscript Operator |
@@ -48,7 +50,7 @@ Unless otherwise denoted, Stephscript has the same grammer as python.
 | or               | I DON’T CARE         |
 | return           | OCCUR                |
 | print            | HEY ____             |
-| =                | IS                   |
+| =                | IS?                  |
 | ==               | REALLY IS            |
 | +                | ADD                  |
 | -                | MINUS                |
