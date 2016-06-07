@@ -10,21 +10,21 @@ Currently there is only a live parser, just run the python script 'stephparse.py
 
 ## Syntax
 ### Rules
-- [ ] “Berlin Wall” must occur at some time during the program
-- [ ] CODE MUST BE WRITTEN IN ALL CAPS BECAUSE STEPH LIKES TO SHOUT
+- [~] “Berlin Wall” must occur at some time during the program
+- [~] CODE MUST BE WRITTEN IN ALL CAPS BECAUSE STEPH LIKES TO SHOUT
 - [ ] All numbers must be greater than 100 because Steph always puts in 110%
-- [ ] Mentioning Aesthetics causes the program to run faster than usual
-- [ ] Stephscript will not compile if John is mentioned anywhere
+- [~] Mentioning Aesthetics causes the program to run faster than usual
+- [~] Stephscript will not compile if John is mentioned anywhere
 - [ ] To create constants preface the variable name with “Ulgethora”, as she is not one to change her mind
 - [ ] Naming a variable after a school sport results in the program printing “GO BULLDOGS” to stdout
-- [ ] Errors are called Rants
-- [ ] Lists are called Crap (or TODOs)
-- [ ] Stephscript can only be run on a computer with less than 5gb of space remaining, and the computer is NOT running the latest version of it’s OS
+- [X] Errors are called Rants
+- [~] Lists are called Crap (or TODOs)
+- [~] Stephscript can only be run on a computer with less than 5gb of space remaining, and the computer is NOT running the latest version of it’s OS
 - [ ] The device must NOT be flat/level for Stephscript to run (If available)
-- [ ] Stephscript must be run from the Desktop, or else it deletes itself
+- [~] Stephscript must be run from the Desktop, or else it deletes itself
 - [ ] Running a stephscript script randomly generates a sticker to put on your laptop (http://randombumpersticker.com/)
 - [ ] Making an instance of a class opens a new window, each print statement opens a new window
-- [ ] Stephscript can’t loop because Steph always does it right the first name
+~~- [ ] Stephscript can’t loop because Steph always does it right the first name~~
 - [ ] Opens a random tumblr page randomly
 
 ### Grammar
@@ -36,7 +36,6 @@ Unless otherwise denoted, Stephscript has the same grammer as python.
 | None             | NOPE                 |
 | False            | WRONG                |
 | True             | RIGHT                |
-| and              | AND                  |
 | break            | GET THE FUCK OUT     |
 | def              | WHEN DID             |
 | if               | WILL THIS WORK       |
@@ -57,12 +56,17 @@ Unless otherwise denoted, Stephscript has the same grammer as python.
 | /                | DIVIDE               |
 | <                | WORSE                |
 | >                | BETTER               |
+| while            | WHILE                |
+| for              | FOR                  |
 
 ## Example
 TBD
 
 ### Debugging
 TBD
+
+## Future Additions
+- Proper Lexical analysis (With SHlex or Lex/YACC)
 
 ## License
 MIT
