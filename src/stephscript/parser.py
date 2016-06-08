@@ -156,8 +156,8 @@ class Parser:
 
         self.consume(tokens, T_Make)
         if self.peek(tokens) != T_Word :
-            #TODO: write this fucking error
-            print("Ooh, what you making there? It sure isn't a variable, that's for goddamn sure!")
+            #TODO: write this error
+            print("Ooh, what you making there? It sure isn't a variable!")
         variable = self.consume(tokens, T_Word)
 
         followup = self.peek(tokens)  # Check the type of the next token to see if it's acceptable

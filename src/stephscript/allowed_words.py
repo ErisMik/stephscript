@@ -58,4 +58,5 @@ ALLOWED = {
     "then",
     "really",
     "by",
+    "the",
 }
