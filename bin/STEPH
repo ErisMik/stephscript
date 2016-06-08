@@ -1,4 +1,0 @@
-#!/bin/sh
-root=$(dirname -- "$0")/..
-export PYTHONPATH="${PYTHONPATH:+$PYTHONPATH:}$root/src"
-exec python3 -- "$root/src/stephscript/main.py" "$@"
