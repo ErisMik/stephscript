@@ -26,6 +26,7 @@ run `python main.py my_file` in terminal to use
 - ~~[ ] Stephscript can’t loop because Steph always does it right the first name~~
 - [ ] Opens a random tumblr page randomly
 - [X] Variables can only be named after certain words, specifically food and names
+- [ ] Each program must throw at least one rant (error) because Steph keeps fucking things up
 
 ### Grammar
 ~~Unless otherwise denoted, Stephscript has the same grammer as python.~~
