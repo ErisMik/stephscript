@@ -2,10 +2,11 @@
 Stephscript is an esoteric programming language based off the sayings, jokes and quirks of a friend from Computer Science class.
 
 ## Installation
-Download this repository and PLACE THE FILE ON THE COMPUTER'S DESKTOP
+Download this repository and PLACE THE FOLDER ON THE COMPUTER'S DESKTOP
+Compile the stephscript compiler using nim (or download the binary)
 
 ## Usage
-run `python main.py my_file` in terminal to use
+run "steph myfile.stsc"
 
 ## Syntax
 ### Rules
@@ -23,15 +24,13 @@ run `python main.py my_file` in terminal to use
 - [/] Stephscript must be run from the Desktop, or else it deletes itself
 - [ ] Running a stephscript script randomly generates a sticker to put on your laptop (http://randombumpersticker.com/)
 - [ ] Making an instance of a class opens a new window, each print statement opens a new window
-- ~~[ ] Stephscript can’t loop because Steph always does it right the first name~~
+- [ ] Stephscript can’t loop because Steph always does it right the first name
 - [ ] Opens a random tumblr page randomly
 - [X] Variables can only be named after certain words, specifically food and names
 - [ ] Each program must throw at least one rant (error) because Steph keeps fucking things up
 
 ### Grammar
-~~Unless otherwise denoted, Stephscript has the same grammer as python.~~
-
-StephScript grammer borrows heavily from TumpScript, for now. Over time it will slowly develop it's own style.
+Look in the examples to get an idea for the stephscript grammer
 
 #### Control flow:
 - Use `,` and `;` to treat compound statements as a single evaluation, similar to how `()` are used in other languages
@@ -40,20 +39,20 @@ StephScript grammer borrows heavily from TumpScript, for now. Over time it will 
 ### Operators:
 | Python Operator  | Stephscript Operator |
 | ---------------- | -------------------- |
-| ~~None~~         | ~~NOPE~~             |
+|   None           |   NOPE               |
 | False            | WRONG                |
 | True             | RIGHT                |
-| ~~break~~        | ~~GET THE FUCK OUT~~ |
-| ~~def~~          | ~~WHEN DID~~         |
+|   break          |   GET THE FUCK OUT   |
+|   def            |   WHEN DID           |
 | if               | WILL THIS WORK       |
-| ~~elif~~         | ~~SHIT I'LL TRY THIS~~ |
+|   elif           |   SHIT I'LL TRY THIS   |
 | else             | FUCK MY LIFE         |
-| ~~try~~          | ~~COULD YOU PLEASE~~ |
-| ~~except~~       | ~~WELL SHIT~~        |
+|   try            |   COULD YOU PLEASE   |
+|   except         |   WELL SHIT          |
 | not              | BEST FUCKING NOT BE  |
 | and              | AND                  |
 | or               | I DON’T CARE         |
-| ~~return~~       | ~~OCCUR~~            |
+| return           |   OCCUR              |
 | print            | HEY                  |
 | =                | IS                   |
 | ==               | IS ____ ?            |
@@ -64,18 +63,16 @@ StephScript grammer borrows heavily from TumpScript, for now. Over time it will 
 | <                | WORSE                |
 | >                | BETTER               |
 | while            | AS LONG AS           |
-| ~~for~~          | ~~FOR~~              |
+|   for            |   FOR                |
 
-## Example
-TBD
+## Examples
+Look in the examples folder of this repo to get an idea of how stephscript works
 
 ### Debugging
-TBD
-
-## Future Additions
-I plan to further develop the StephScript Language
+Good luck!
 
 ## License
 MIT License (See LICENSE.txt)
 
 This project is based off of [TrumpScript](https://github.com/samshadwell/TrumpScript)
+Thank you to [this post](https://softwareengineering.stackexchange.com/questions/165543/how-to-write-a-very-basic-compiler) for guiding my compiler actions
