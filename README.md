@@ -10,23 +10,23 @@ run "steph myfile.stsc"
 
 ## Syntax
 ### Rules
-- [X] “Berlin Wall” must occur as the last line of the program
-- [/] CODE MUST BE WRITTEN IN ALL CAPS BECAUSE STEPH LIKES TO SHOUT
+- [ ] “Berlin Wall” must occur as the last line of the program
+- [ ] CODE MUST BE WRITTEN IN ALL CAPS BECAUSE STEPH LIKES TO SHOUT
 - [ ] All numbers must be greater than 100 because Steph always puts in 110%
 - [ ] Mentioning Aesthetics causes the program to run faster than usual
-- [X] Stephscript will not compile if John is mentioned anywhere
+- [ ] Stephscript will not compile if John is mentioned anywhere
 - [ ] To create constants preface the variable name with “Ulgethora”, as she is not one to change her mind
 - [ ] Naming a variable after a school sport results in the program printing “GO BULLDOGS” to stdout
 - [ ] Errors are called Rants
 - [ ] Lists are called Crap (or TODOs)
-- [X] Stephscript can only be run on a computer with less than 5gb of space remaining, and the computer is NOT running the latest version of it’s OS
+- [ ] Stephscript can only be run on a computer with less than 5gb of space remaining, and the computer is NOT running the latest version of it’s OS
 - [ ] The device must NOT be flat/level for Stephscript to run (If available)
-- [/] Stephscript must be run from the Desktop, or else it deletes itself
+- [ ] Stephscript must be run from the Desktop, or else it deletes itself
 - [ ] Running a stephscript script randomly generates a sticker to put on your laptop (http://randombumpersticker.com/)
 - [ ] Making an instance of a class opens a new window, each print statement opens a new window
 - [ ] Stephscript can’t loop because Steph always does it right the first name
 - [ ] Opens a random tumblr page randomly
-- [X] Variables can only be named after certain words, specifically food and names
+- [ ] Variables can only be named after certain words, specifically food and names
 - [ ] Each program must throw at least one rant (error) because Steph keeps fucking things up
 
 ### Grammar
@@ -76,3 +76,4 @@ MIT License (See LICENSE.txt)
 
 This project is based off of [TrumpScript](https://github.com/samshadwell/TrumpScript)
 Thank you to [this post](https://softwareengineering.stackexchange.com/questions/165543/how-to-write-a-very-basic-compiler) for guiding my compiler actions
+And [this guide](http://lisperator.net/pltut/) for basically carrying me through this project
