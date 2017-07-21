@@ -3,6 +3,7 @@ Stephscript is an esoteric programming language based off the sayings, jokes and
 
 ## Installation
 Download this repository and PLACE THE FOLDER ON THE COMPUTER'S DESKTOP
+
 Compile the stephscript compiler using nim (or download the binary)
 
 ## Usage
@@ -75,5 +76,9 @@ Good luck!
 MIT License (See LICENSE.txt)
 
 This project is based off of [TrumpScript](https://github.com/samshadwell/TrumpScript)
+
 Thank you to [this post](https://softwareengineering.stackexchange.com/questions/165543/how-to-write-a-very-basic-compiler) for guiding my compiler actions
+
 And [this guide](http://lisperator.net/pltut/) for basically carrying me through this project
+
+And the the [nim docs](https://nim-lang.org/documentation.html) and [nim IRC](https://nim-lang.org/community.html) for helping me learn nim at the same time
